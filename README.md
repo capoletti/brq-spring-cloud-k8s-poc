@@ -4,7 +4,7 @@ Projeto de exemplo utilizando o conjunto de ferramentas do Spring Cloud e Netfli
 
 Esse projeto é composto por 4 microserviços, sendo 2 que fazem papel de infraestrutura, são eles:
 
-EUREKA
+EUREKA 
 
 Projeto Spring Cloud com o servidor Eureka do Netflix OSS, esse componente tem como responsabilidade atuar como Service Discover / Registry
 
@@ -41,7 +41,7 @@ Para desenvolvimento usamos o minikube (), para as imagens geradas pelo build n�
 	$ minikube start 
 	$ eval $(minikube docker-env)
 
-Ingress Controller para permitir que os Services possam ser acessados foram do Cluster do k8s
+Ingress Controller para permitir que os Services possam ser acessados fora do Cluster do k8s
 
 	$ kubectl create -f http://central.maven.org/maven2/io/fabric8/devops/apps/exposecontroller/2.2.268/exposecontroller-2.2.268-kubernetes.yml
 
